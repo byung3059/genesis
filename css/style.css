@@ -286,7 +286,7 @@
 
 .award .swiper-pagination {
     position: absolute;
-    bottom: -100px;
+    bottom: -50px;
     display: block;
     color: #fff;
     transform: translate(-50%, -50%);
@@ -297,6 +297,10 @@
     width: 30px;
     height: 4px;
     border-radius: 2px;
+}
+
+.award-slide .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    top: 90%;
 }
 
 
